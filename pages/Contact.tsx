@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, MapPin, Clock } from 'lucide-react';
+import { Phone, MapPin, Clock, MousePointerClick } from 'lucide-react';
 import { IMAGES } from '../constants';
 
 const Contact: React.FC = () => {
@@ -27,8 +27,6 @@ const Contact: React.FC = () => {
 
       {/* ================= CONTENT ================= */}
       <section className="relative py-20 overflow-hidden bg-white">
-
-        {/* === LINE PATTERN === */}
         <div
           className="absolute inset-0"
           style={{
@@ -40,7 +38,7 @@ const Contact: React.FC = () => {
         <div className="relative z-10 flex justify-center">
           <div className="w-full max-w-3xl px-4 space-y-8">
 
-            {/* Informasi Kantor */}
+             {/* Informasi Kantor */}
             <div className="bg-white p-8 rounded-3xl shadow-xl border border-slate-200">
               <h3 className="text-2xl font-bold text-slate-800 mb-8 text-center">
                 Informasi Kantor
@@ -85,43 +83,65 @@ const Contact: React.FC = () => {
               </h3>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+
+                {/* Rani */}
                 <a
-                  href="https://wa.me/6282271674145"
+                  href="https://wa.me/6282271674145?text=Halo%20Bapak%2FIbu%20Rani%2C%20saya%20tertarik%20dengan%20kerja%20di%20Romania.%20Boleh%20minta%20info%20lebih%20lanjut%3F"
                   target="_blank"
                   rel="noreferrer"
-                  className="flex items-center p-6 bg-slate-50 rounded-2xl hover:bg-slate-100 transition"
+                  className="group flex items-center p-6 bg-slate-50 rounded-2xl hover:bg-slate-100 transition"
                 >
                   <div className="p-3 bg-blue-700 text-white rounded-xl mr-4">
                     <Phone size={20} />
                   </div>
-                  <div>
+
+                  <div className="flex flex-col">
                     <p className="text-xs font-bold text-slate-400 uppercase">
                       Rani
                     </p>
                     <p className="font-bold text-slate-800">
                       +62 822-7167-4145
                     </p>
+
+                    <div className="mt-2 flex items-center gap-2 text-red-600 font-semibold text-sm">
+                      <span>Klik di sini</span>
+                      <MousePointerClick
+                        size={18}
+                        className="group-hover:animate-bounce"
+                      />
+                    </div>
                   </div>
                 </a>
 
+                {/* Victor */}
                 <a
-                  href="https://wa.me/6282230184888"
+                  href="https://wa.me/6282230184888?text=Halo%20Bapak%2FIbu%20Victor%2C%20saya%20tertarik%20dengan%20kerja%20di%20Romania.%20Boleh%20minta%20info%20lebih%20lanjut%3F"
                   target="_blank"
                   rel="noreferrer"
-                  className="flex items-center p-6 bg-slate-50 rounded-2xl hover:bg-slate-100 transition"
+                  className="group flex items-center p-6 bg-slate-50 rounded-2xl hover:bg-slate-100 transition"
                 >
                   <div className="p-3 bg-blue-700 text-white rounded-xl mr-4">
                     <Phone size={20} />
                   </div>
-                  <div>
+
+                  <div className="flex flex-col">
                     <p className="text-xs font-bold text-slate-400 uppercase">
                       Victor
                     </p>
                     <p className="font-bold text-slate-800">
                       +62 822-3018-4888
                     </p>
+
+                    <div className="mt-2 flex items-center gap-2 text-red-600 font-semibold text-sm">
+                      <span>Klik di sini</span>
+                      <MousePointerClick
+                        size={18}
+                        className="group-hover:animate-bounce"
+                      />
+                    </div>
                   </div>
                 </a>
+
               </div>
             </div>
 
@@ -140,7 +160,6 @@ const Contact: React.FC = () => {
 
           </div>
         </div>
-        
       </section>
     </div>
   );

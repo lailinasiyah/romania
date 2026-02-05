@@ -58,8 +58,7 @@ const Navbar: React.FC = () => {
 </div>
             <div className="flex flex-col">
               <span className="font-bold text-lg leading-tight text-romania-blue">
-                PT. Mitra Sinergi Sukses
-              </span>
+                PT. Mitra Sinergi Sukses</span>
               <span className="text-xs text-slate-500">
                 Professional Recruitment Agency
               </span>

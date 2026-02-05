@@ -133,13 +133,21 @@ const Pricing: React.FC = () => {
               </div>
 
               <a
-                href="https://wa.me/6282271674145"
+                href="https://wa.me/6282271674145?text=Halo%20Ibu%20Rani%2C%20saya%20ingin%20bertanya%20mengenai%20skema%20biaya%20proses%20ke%20Romania.%20Boleh%20minta%20info%20lebih%20lanjut%3F"
                 target="_blank"
                 rel="noreferrer"
-                className="block w-full text-center py-4 rounded-xl font-bold bg-slate-100 text-slate-800 hover:bg-slate-200 transition-all"
+                className="
+                  block w-full text-center py-4 rounded-xl font-bold
+                  text-blue-900
+                  bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500
+                  hover:from-yellow-500 hover:via-yellow-400 hover:to-yellow-600
+                  shadow-lg hover:shadow-xl
+                  transition-all duration-300
+                "
               >
                 Hubungi Untuk Detail
               </a>
+
             </div>
           </div>
               </div>
