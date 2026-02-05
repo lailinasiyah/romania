@@ -18,10 +18,10 @@ const Pricing: React.FC = () => {
       image: IMAGES.bgservice,
       popular: false,
       paymentSteps: [
-      '1 Juta – Admin Fee',
-      '9 Juta – Menerima kontrak kerja',
-      '10 Juta – Menerima visa kerja Romania'
-    ]
+        '1 Juta – Admin Fee',
+        '9 Juta – Menerima kontrak kerja',
+        '10 Juta – Menerima visa kerja Romania'
+      ]
     },
     {
       title: 'Biaya Proses',
@@ -30,10 +30,10 @@ const Pricing: React.FC = () => {
       image: IMAGES.bgmanajer,
       popular: false,
       paymentSteps: [
-      '2 Juta – Admin Fee',
-      '11.5 Juta – Menerima kontrak kerja',
-      '12.5 Juta – Menerima visa kerja Romania'
-    ]
+        '2 Juta – Admin Fee',
+        '11.5 Juta – Menerima kontrak kerja',
+        '12.5 Juta – Menerima visa kerja Romania'
+      ]
     },
     {
       title: 'Biaya Proses',
@@ -42,10 +42,10 @@ const Pricing: React.FC = () => {
       image: IMAGES.bgheadchef,
       popular: false,
       paymentSteps: [
-      '1 Juta – Admin Fee',
-      '14 Juta – Menerima kontrak kerja',
-      '15 Juta – Menerima visa kerja Romania'
-    ]
+        '1 Juta – Admin Fee',
+        '14 Juta – Menerima kontrak kerja',
+        '15 Juta – Menerima visa kerja Romania'
+      ]
     }
   ];
 
@@ -75,11 +75,12 @@ const Pricing: React.FC = () => {
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-24">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10 md:mb-24">
+
             {packages.map((pkg, i) => (
               <div
                 key={i}
-                className={`relative pt-24 rounded-3xl border transition-all ${
+                className={`relative pt-28 mb-20 md:mb-0 rounded-3xl border transition-all ${
                   pkg.popular
                     ? 'border-romania-blue shadow-2xl scale-105'
                     : 'border-slate-200 shadow-xl'
@@ -96,60 +97,62 @@ const Pricing: React.FC = () => {
 
                 {/* CARD CONTENT */}
                 <div className="flex flex-col p-8 bg-white rounded-3xl h-full">
-            <h3 className="text-xl font-bold text-slate-800 mb-2 text-center">
-              {pkg.title}
-            </h3>
+                  
+                  {/* HEADER (FIX HEIGHT FOR MOBILE) */}
+                  <div className="min-h-[90px] text-center">
+                    <h3 className="text-xl font-bold text-slate-800 mb-2">
+                      {pkg.title}
+                    </h3>
 
-            <p className="text-sm text-slate-500 mb-6 font-medium text-center">
-              {pkg.roles}
-            </p>
+                    <p className="text-sm text-slate-500 font-medium">
+                      {pkg.roles}
+                    </p>
+                  </div>
 
-            <div className="mt-auto">
+                  <div className="mt-auto">
+                    <p className="text-4xl font-black text-romania-blue mb-4 text-center">
+                      {pkg.price}
+                    </p>
 
-              <p className="text-4xl font-black text-romania-blue mb-4 text-center">
-                {pkg.price}
-              </p>
+                    {/* TAHAPAN PEMBAYARAN */}
+                    <div className="mb-6">
+                      <p className="text-sm font-semibold text-slate-700 mb-3 text-center">
+                        Dengan Tahapan Pembayaran
+                      </p>
 
-              {/* TAHAPAN PEMBAYARAN */}
-              <div className="mb-6">
-                <p className="text-sm font-semibold text-slate-700 mb-3 text-center">
-                  Dengan Tahapan Pembayaran
-                </p>
+                      <ul className="space-y-2">
+                        {pkg.paymentSteps.map((step, idx) => (
+                          <li
+                            key={idx}
+                            className="flex items-start text-sm text-slate-600"
+                          >
+                            <CheckCircle2
+                              size={16}
+                              className="text-romania-blue mr-2 mt-0.5 shrink-0"
+                            />
+                            {step}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
 
-                <ul className="space-y-2">
-                  {pkg.paymentSteps.map((step, idx) => (
-                    <li
-                      key={idx}
-                      className="flex items-start text-sm text-slate-600"
+                    <a
+                      href="https://wa.me/6282271674145?text=Halo%20Ibu%20Rani%2C%20saya%20ingin%20bertanya%20mengenai%20skema%20biaya%20proses%20ke%20Romania.%20Boleh%20minta%20info%20lebih%20lanjut%3F"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="
+                        block w-full text-center py-4 rounded-xl font-bold
+                        text-blue-900
+                        bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500
+                        hover:from-yellow-500 hover:via-yellow-400 hover:to-yellow-600
+                        shadow-lg hover:shadow-xl
+                        transition-all duration-300
+                      "
                     >
-                      <CheckCircle2
-                        size={16}
-                        className="text-romania-blue mr-2 mt-0.5 shrink-0"
-                      />
-                      {step}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <a
-                href="https://wa.me/6282271674145?text=Halo%20Ibu%20Rani%2C%20saya%20ingin%20bertanya%20mengenai%20skema%20biaya%20proses%20ke%20Romania.%20Boleh%20minta%20info%20lebih%20lanjut%3F"
-                target="_blank"
-                rel="noreferrer"
-                className="
-                  block w-full text-center py-4 rounded-xl font-bold
-                  text-blue-900
-                  bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500
-                  hover:from-yellow-500 hover:via-yellow-400 hover:to-yellow-600
-                  shadow-lg hover:shadow-xl
-                  transition-all duration-300
-                "
-              >
-                Hubungi Untuk Detail
-              </a>
-
-            </div>
-          </div>
+                      Hubungi Untuk Detail
+                    </a>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
