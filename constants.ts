@@ -39,3 +39,49 @@ export const CONTACT_INFO = {
   hq: "Jl. Mayjen Sungkono No.77, Malang",
   marketing: "Jl. Dukuh Kupang Barat I, Surabaya"
 };
+
+interface Testimonial {
+  id: string;
+  name: string;
+  role: string;
+  quote: string;
+  image: string;
+}
+
+export const TESTIMONIALS: Testimonial[] = [
+  {
+    id: '1',
+    name: 'Fernando',
+    role: 'Cook',
+    quote: 'Bimbingan dokumen sangat rapi, mentornya suportif banget sampai aku dapat visa tepat waktu.',
+    image: `${BASE}/assets/fernando-cook.jpg`
+  },
+  {
+    id: '2',
+    name: 'Yogi Indra',
+    role: 'Waiter',
+    quote: 'Prosesnya dibimbing dan diarahkan dan dibantu',
+    image: `${BASE}/assets/yogi-waiter.jpg`
+  },
+  {
+    id: '3',
+    name: 'Michael',
+    role: 'Waiter',
+    quote: 'Terimakasih sudah membantu bekerja di Luar Negeri',
+    image: `${BASE}/assets/michael-waitress.jpg`
+  },
+  {
+    id: '4',
+    name: 'Gregorius',
+    role: 'Waiter',
+    quote: 'Mimpi gak ada batasannya yang penting mulai dulu aja dari sekarang',
+    image: `${BASE}/assets/gregorius-waitrer.jpg`
+  },
+  {
+    id: '5',
+    name: 'Faldo Hanockh',
+    role: 'Waiter',
+    quote: 'Terimakasih PT. MSS',
+    image: `${BASE}/assets/faldo-waiter.jpg`
+  }
+];

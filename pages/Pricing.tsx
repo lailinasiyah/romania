@@ -14,37 +14,37 @@ const Pricing: React.FC = () => {
     {
       title: 'Biaya Proses',
       roles: 'Bartender / Waiter / Cook / Floor Supervisor',
-      price: 'Rp 20 Juta',
+      price: 'Rp 23 Juta',
       image: IMAGES.bgservice,
       popular: false,
       paymentSteps: [
         '1 Juta – Admin Fee',
         '9 Juta – Menerima kontrak kerja',
-        '10 Juta – Menerima visa kerja Romania'
+        '13 Juta – Menerima visa kerja Romania'
       ]
     },
     {
       title: 'Biaya Proses',
       roles: 'Floor Manager',
-      price: 'Rp 25 Juta',
+      price: 'Rp 28 Juta',
       image: IMAGES.bgmanajer,
       popular: false,
       paymentSteps: [
         '2 Juta – Admin Fee',
         '11.5 Juta – Menerima kontrak kerja',
-        '12.5 Juta – Menerima visa kerja Romania'
+        '15.5 Juta – Menerima visa kerja Romania'
       ]
     },
     {
       title: 'Biaya Proses',
       roles: 'Head Chef',
-      price: 'Rp 30 Juta',
+      price: 'Rp 33 Juta',
       image: IMAGES.bgheadchef,
       popular: false,
       paymentSteps: [
         '1 Juta – Admin Fee',
         '14 Juta – Menerima kontrak kerja',
-        '15 Juta – Menerima visa kerja Romania'
+        '18 Juta – Menerima visa kerja Romania'
       ]
     }
   ];

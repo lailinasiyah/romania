@@ -102,7 +102,7 @@ const JobChef: React.FC = () => {
                 <ul className="grid grid-cols-1 md:grid-cols-1 gap-4 list-none p-0">
                   <li className="flex items-center"><CheckCircle className="text-romania-blue mr-2 shrink-0" size={20} /> Experienced Cook</li>
                   <li className="flex items-center"><CheckCircle className="text-romania-blue mr-2 shrink-0" size={20} /> Junior Cook</li>
-                  <li className="flex items-center"><CheckCircle className="text-romania-blue mr-2 shrink-0" size={20} /> Head Chef</li>
+                  
                 </ul>
 
                 <h3 className="text-2xl font-bold text-slate-800 mt-10 mb-4">Syarat Penerimaan:</h3>
@@ -137,11 +137,11 @@ const JobChef: React.FC = () => {
                             <p className="text-2xl font-black text-romania-blue">RON 5,000</p>
                             <p className="text-sm font-medium">± Rp 18,8 Juta / Bulan</p>
                         </div>
-                        <div>
+                        {/* <div>
                             <p className="text-sm font-bold text-romania-blue/60 uppercase">Head Chef</p>
                             <p className="text-2xl font-black text-romania-blue">RON 8,500</p>
                             <p className="text-sm font-medium">± Rp 32 Juta / Bulan</p>
-                        </div>
+                        </div> */}
                     </div>
                     <p className="text-xs mt-6 italic text-romania-blue/70">* Nilai konversi dapat berubah sewaktu-waktu sesuai kurs berlaku.</p>
                 </div>
