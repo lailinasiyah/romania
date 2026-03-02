@@ -84,9 +84,9 @@ const Contact: React.FC = () => {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
 
-                {/* Rani */}
+                {/* Nova */}
                 <a
-                  href="https://wa.me/6282271674145?text=Halo%20Bapak%2FIbu%20Rani%2C%20saya%20tertarik%20dengan%20kerja%20di%20Romania.%20Boleh%20minta%20info%20lebih%20lanjut%3F"
+                  href="https://wa.me/6285185995935?text=Halo%20Bapak%2FIbu%20Nova%2C%20saya%20tertarik%20dengan%20kerja%20di%20Romania.%20Boleh%20minta%20info%20lebih%20lanjut%3F"
                   target="_blank"
                   rel="noreferrer"
                   className="group flex items-center p-6 bg-slate-50 rounded-2xl hover:bg-slate-100 transition"
@@ -97,10 +97,10 @@ const Contact: React.FC = () => {
 
                   <div className="flex flex-col">
                     <p className="text-xs font-bold text-slate-400 uppercase">
-                      Rani
+                      Nova
                     </p>
                     <p className="font-bold text-slate-800">
-                      +62 822-7167-4145
+                      +62 851-8599-5935
                     </p>
 
                     <div className="mt-2 flex items-center gap-2 text-red-600 font-semibold text-sm">

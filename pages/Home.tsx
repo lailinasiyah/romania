@@ -438,7 +438,7 @@ const Home: React.FC = () => {
               <p className="text-black/90 text-lg">Jangan ragu bertanya. Konsultasi awal 100% gratis dan tanpa komitmen.</p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <div className="grid sm:grid-cols-3 gap-4 text-center">
+                <div className="grid sm:grid-cols-2 gap-4 text-center">
 
   <a 
     href="https://wa.me/6285185995935"
@@ -449,21 +449,6 @@ const Home: React.FC = () => {
                transition-all duration-300 group"
   >
     <p className="font-bold text-lg">🔥 Chat Nova Sekarang</p>
-    <p className="text-sm opacity-90">Respon Cepat & Konsultasi Gratis</p>
-    <p className="mt-2 font-semibold animate-pulse">
-      Klik di sini
-    </p>
-  </a>
-
-  <a 
-    href="https://wa.me/6282271674145"
-    target="_blank"
-    className="bg-gradient-to-r from-[#C8102E] to-red-700
-               text-white px-6 py-6 rounded-xl
-               shadow-2xl hover:scale-110
-               transition-all duration-300 group"
-  >
-    <p className="font-bold text-lg">🔥 Chat Rani Sekarang</p>
     <p className="text-sm opacity-90">Respon Cepat & Konsultasi Gratis</p>
     <p className="mt-2 font-semibold animate-pulse">
       Klik di sini
