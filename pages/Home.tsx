@@ -310,9 +310,9 @@ const Home: React.FC = () => {
       </h2>
 
         <p className="text-gray-600 mb-8 text-lg leading-relaxed">
-          Kami bukan sekadar agen, tapi <span className="font-semibold text-gray-900">
-          mentor transformasi masa depan
-          </span> yang mendampingi perjalanan akademik dan karier Anda hingga sukses.
+          Kami Perusahaan yang <span className="font-semibold text-gray-900">
+          berpengalaman lebih dari 20 tahun lebih
+          </span> dalam mendidik, melatih pekerja migran yang profesional di bidangnya dan mendampingi perjalanan karir anda hingga sukses.
         </p>
 
         <ul className="space-y-5">
