@@ -14,37 +14,37 @@ const Pricing: React.FC = () => {
     {
       title: 'Biaya Proses',
       roles: 'Bartender / Waiter / Cook / Floor Supervisor',
-      price: 'Rp 23 Juta',
+      price: 'Rp 20 Juta',
       image: IMAGES.bgservice,
       popular: false,
       paymentSteps: [
-        '1 Juta – Admin Fee',
+        '1 Juta – Pendaftaran',
         '9 Juta – Menerima kontrak kerja',
-        '13 Juta – Menerima visa kerja Romania'
+        '10 Juta – Menerima visa kerja Romania'
       ]
     },
     {
       title: 'Biaya Proses',
       roles: 'Floor Manager',
-      price: 'Rp 28 Juta',
+      price: 'Rp 25 Juta',
       image: IMAGES.bgmanajer,
       popular: false,
       paymentSteps: [
-        '2 Juta – Admin Fee',
+        '1 Juta – Pendaftaran',
         '11.5 Juta – Menerima kontrak kerja',
-        '15.5 Juta – Menerima visa kerja Romania'
+        '12 .5 Juta – Menerima visa kerja Romania'
       ]
     },
     {
       title: 'Biaya Proses',
       roles: 'Head Chef',
-      price: 'Rp 33 Juta',
+      price: 'Rp 30 Juta',
       image: IMAGES.bgheadchef,
       popular: false,
       paymentSteps: [
-        '1 Juta – Admin Fee',
+        '1 Juta – Pendaftaran',
         '14 Juta – Menerima kontrak kerja',
-        '18 Juta – Menerima visa kerja Romania'
+        '15 Juta – Menerima visa kerja Romania'
       ]
     }
   ];
@@ -58,7 +58,7 @@ const Pricing: React.FC = () => {
           style={{ backgroundImage: `url(${IMAGES.bgbiaya})` }}
         />
         <div className="absolute inset-0 bg-black/40" />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#002B7F]/70 via-[#FCD116]/50 to-transparent" />
+        
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="inline-block text-4xl sm:text-5xl md:text-7xl font-black tracking-tight px-6 py-3 rounded-2xl bg-white/10 backdrop-blur-xl text-white mb-6">
@@ -137,7 +137,7 @@ const Pricing: React.FC = () => {
                     </div>
 
                     <a
-                      href="https://wa.me/6282271674145?text=Halo%20Ibu%20Rani%2C%20saya%20ingin%20bertanya%20mengenai%20skema%20biaya%20proses%20ke%20Romania.%20Boleh%20minta%20info%20lebih%20lanjut%3F"
+                      href="https://wa.me/6285185995935?text=Halo%20Ibu%20Nova%2C%20saya%20ingin%20bertanya%20mengenai%20skema%20biaya%20proses%20ke%20Romania.%20Boleh%20minta%20info%20lebih%20lanjut%3F"
                       target="_blank"
                       rel="noreferrer"
                       className="

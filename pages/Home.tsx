@@ -109,16 +109,7 @@ const Home: React.FC = () => {
           className="absolute inset-0 w-full h-full object-cover"
         />
 
-        {/* Gradient Overlay – kuning lebih terang */}
-        <div
-          className="
-            absolute inset-0
-            bg-gradient-to-r
-            from-[#002B7F]/95
-            via-[#FCD116]/80
-            to-transparent
-          "
-        />
+
 
         {/* Content */}
         <div className="relative z-10 w-full px-4 sm:px-6 lg:px-20">
@@ -139,7 +130,7 @@ const Home: React.FC = () => {
                   drop-shadow-[0_6px_18px_rgba(0,0,0,0.85)]
                 "
               >
-                Membangun Karir di{' '}
+                Meraih Kesempatan Emas Sukses Di {' '}
                 <span className="text-[#FCD116]">Romania</span>
               </span>
             </h1>
@@ -160,9 +151,8 @@ const Home: React.FC = () => {
                   drop-shadow-md
                 "
               >
-                Bergabunglah bersama PT. Mitra Sinergi Sukses dan raih peluang
-                karir internasional di sektor kuliner & hospitality. Pelatihan
-                standar global dan lingkungan kerja dinamis menanti Anda.
+                Job : Bartender, Chef (Experienced Cook, Junior Cook)
+                Gaji : Dengan gaji rata - rata 14 Juta lebih
               </span>
             </p>
 
@@ -456,14 +446,14 @@ const Home: React.FC = () => {
   </a>
 
   <a 
-    href="https://wa.me/62811314300"
+    href="https://wa.me/6282230184888"
     target="_blank"
     className="bg-gradient-to-r from-[#C8102E] to-red-700
                text-white px-6 py-6 rounded-xl
                shadow-2xl hover:scale-110
                transition-all duration-300 group"
   >
-    <p className="font-bold text-lg">🔥 Chat Wesley Sekarang</p>
+    <p className="font-bold text-lg">🔥 Chat Victor Sekarang</p>
     <p className="text-sm opacity-90">Respon Cepat & Konsultasi Gratis</p>
     <p className="mt-2 font-semibold animate-pulse">
       Klik di sini

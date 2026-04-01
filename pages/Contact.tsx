@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
           style={{ backgroundImage: `url(${IMAGES.bgcontact})` }}
         />
         <div className="absolute inset-0 bg-black/40" />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#002B7F]/70 via-[#FCD116]/50 to-transparent" />
+    
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
           <h1 className="inline-block text-4xl sm:text-5xl md:text-7xl font-black px-6 py-3 rounded-2xl bg-white/10 backdrop-blur-xl text-white mb-6">
@@ -56,20 +56,6 @@ const Contact: React.FC = () => {
                     <p className="text-slate-600">PT. Mitra Sinergi Sukses</p>
                     <p className="text-slate-600">
                       Jl. Mayjen Sungkono No.77, Wonokoyo, Kedungkandang, Kota Malang
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="p-4 bg-red-50 text-red-600 rounded-2xl mr-4">
-                    <MapPin size={24} />
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-slate-800 mb-2">
-                      Kantor Marketing Surabaya
-                    </h4>
-                    <p className="text-slate-600">
-                      Ruko Grand Sungkono 2D No.10-11, Surabaya
                     </p>
                   </div>
                 </div>

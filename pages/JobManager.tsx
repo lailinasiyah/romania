@@ -17,17 +17,7 @@ const JobManager: React.FC = () => {
       
         {/* Dark transparent overlay */}
         <div className="absolute inset-0 bg-black/40" />
-      
-        {/* Gradient Background */}
-        <div
-          className="
-            absolute inset-0
-            bg-gradient-to-r
-            from-[#002B7F]/70
-            via-[#FCD116]/50
-            to-transparent
-          "
-        />
+    
       
         {/* Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -48,21 +38,9 @@ const JobManager: React.FC = () => {
           >
             Restaurant Manager & Management
           </h1>
-      
-          <p
-            className="
-              max-w-3xl
-              text-lg sm:text-xl
-              leading-relaxed
-              px-6 py-4
-              rounded-2xl
-              bg-white/10
-              backdrop-blur-xl
-              shadow-[0_10px_30px_rgba(0,0,0,0.45)]
-              text-slate-100
-            "
-          >
-            Mulai Perjalanan Terhebatmu dalam bidang Restaurant Management di  Rumania
+          <br></br>
+              <p className="inline-block text-lg sm:text-xl font-bold text-[#FCD116] max-w-3xl leading-relaxed px-4 py-3 rounded-xl bg-slate-900/50 backdrop-blur-md shadow-[0_10px_30px_rgba(0,0,0,0.55)]">
+            Gaji : IDR 18,8 - 25 Juta
           </p>
         </div>
       </section>

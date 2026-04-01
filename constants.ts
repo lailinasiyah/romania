@@ -1,6 +1,6 @@
 const BASE = process.env.BASE_URL || '/';
 export const IMAGES = {
-  hero: `${BASE}/assets/bag.jpg`,
+  hero: `${BASE}/assets/chef.webp`,
   bgMenu: `${BASE}/assets/bg.jpg`, 
   bgChef: `${BASE}/assets/chef.webp`,
   bgfnb : `${BASE}/assets/fnb.webp`,

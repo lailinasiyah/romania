@@ -18,15 +18,15 @@ const About: React.FC = () => {
           style={{ backgroundImage: `url(${IMAGES.bgMenu})` }}
         />
         <div className="absolute inset-0 bg-black/40" />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#002B7F]/70 via-[#FCD116]/50 to-transparent" />
+        
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="inline-block text-4xl sm:text-5xl md:text-7xl font-black tracking-tight px-6 py-3 rounded-2xl bg-white/10 backdrop-blur-xl text-white mb-6 shadow-[0_10px_30px_rgba(0,0,0,0.55)]">
             Tentang Kami
           </h1>
-          <p className="inline-block text-lg sm:text-xl text-white/95 max-w-3xl leading-relaxed px-4 py-3 rounded-xl bg-slate-900/50 backdrop-blur-md shadow-[0_10px_30px_rgba(0,0,0,0.55)]">
-            PT. Mitra Sinergi Sukses merupakan lembaga penempatan pekerja migran
-            Indonesia ke luar negeri yang telah berpengalaman sejak tahun 2005.
+          <br></br>
+          <p className="inline-block text-lg sm:text-xl font-bold text-[#FCD116] max-w-3xl leading-relaxed px-4 py-3 rounded-xl bg-slate-900/50 backdrop-blur-md shadow-[0_10px_30px_rgba(0,0,0,0.55)]">
+            PT. Mitra Sinergi Sukses
           </p>
         </div>
       </section>
@@ -54,8 +54,7 @@ const About: React.FC = () => {
                     'PT. Mitra Sinergi Sukses (P3MI)',
                     'PT. Mitra Sarana Sejahtera Malang',
                     'PT. Mitra Bina Bangsa',
-                    'PT. Mitra Sinergi Anugrah',
-                    'PT. Universal Hospitality Training Centre'
+                    'PT. Mitra Sinergi Anugrah'
                   ].map((item, i) => (
                     <li key={i} className="flex items-center">
                       <CheckCircle2 className="text-[#FCD116] mr-2" size={18} />
@@ -81,10 +80,10 @@ const About: React.FC = () => {
 
                 <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
                   <h4 className="font-bold text-slate-800 mb-3">
-                    Lokasi Utama
+                    Lokasi
                   </h4>
                   <p className="text-sm text-slate-600">
-                    Malang (Pusat) & Surabaya (Marketing)
+                    Malang
                   </p>
                 </div>
               </div>
