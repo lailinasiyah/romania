@@ -152,7 +152,7 @@ const Home: React.FC = () => {
                 "
               >
                 Job : Bartender, Chef (Experienced Cook, Junior Cook)
-                Gaji : Dengan gaji rata - rata 14 Juta lebih
+                Gaji : Dengan gaji rata - rata 15 Juta lebih
               </span>
             </p>
 
@@ -301,7 +301,7 @@ const Home: React.FC = () => {
 
         <p className="text-gray-600 mb-8 text-lg leading-relaxed">
           Kami Perusahaan yang <span className="font-semibold text-gray-900">
-          berpengalaman lebih dari 20 tahun lebih
+          berpengalaman lebih dari 20 tahun
           </span> dalam mendidik, melatih pekerja migran yang profesional di bidangnya dan mendampingi perjalanan karir anda hingga sukses.
         </p>
 

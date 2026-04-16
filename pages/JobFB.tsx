@@ -40,7 +40,7 @@ const JobFB: React.FC = () => {
     </h1>
     <br></br>
               <p className="inline-block text-lg sm:text-xl font-bold text-[#FCD116] max-w-3xl leading-relaxed px-4 py-3 rounded-xl bg-slate-900/50 backdrop-blur-md shadow-[0_10px_30px_rgba(0,0,0,0.55)]">
-            Gaji : IDR 14,8 Juta
+            Gaji : IDR 15,8 Juta
           </p>
   </div>
 </section>
@@ -104,7 +104,7 @@ const JobFB: React.FC = () => {
                     <div className="space-y-6">
                         <div className="border-b border-romania-blue/20 pb-4">
                             <p className="text-2xl font-black text-romania-blue">RON 4,000</p>
-                            <p className="text-sm font-medium">± Rp 14,8 Juta / Bulan</p>
+                            <p className="text-sm font-medium">± Rp 15,8 Juta / Bulan</p>
                         </div>
                     </div>
                     <p className="text-xs mt-6 italic text-romania-blue/70">* Nilai konversi dapat berubah sewaktu-waktu sesuai kurs berlaku.</p>
