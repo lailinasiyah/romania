@@ -15,12 +15,9 @@ const Contact: React.FC = () => {
         <div className="absolute inset-0 bg-black/40" />
     
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
-          <h1 className="inline-block text-4xl sm:text-5xl md:text-7xl font-black px-6 py-3 rounded-2xl bg-white/10 backdrop-blur-xl text-white mb-6">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">      
+          <p className="inline-block text-4xl sm:text-5xl md:text-7xl font-black px-6 py-3 rounded-2xl bg-white/10 backdrop-blur-xl text-white mb-6">
             Hubungi Kami
-          </h1>
-          <p className="inline-block text-lg sm:text-xl text-white/95 max-w-3xl px-4 py-3 rounded-xl bg-slate-900/50 backdrop-blur-md">
-            Tim kami siap membantu menjawab pertanyaan Anda seputar karir di luar negeri.
           </p>
         </div>
       </section>

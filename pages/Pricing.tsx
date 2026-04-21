@@ -57,7 +57,6 @@ const Pricing: React.FC = () => {
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${IMAGES.bgbiaya})` }}
         />
-        <div className="absolute inset-0 bg-black/40" />
         
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

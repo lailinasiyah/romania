@@ -10,12 +10,9 @@ const JobFB: React.FC = () => {
       <section className="relative py-32 text-white overflow-hidden">
   {/* Background Image */}
   <div
-    className="absolute inset-0 bg-cover bg-center"
+    className="absolute inset-0 bg-cover bg-[center_10%] "
     style={{ backgroundImage: `url(${IMAGES.bgrestaurant})` }}
   />  
-
-  {/* Dark transparent overlay */}
-  <div className="absolute inset-0 bg-black/40" />
 
   {/* Gradient Background */}
 

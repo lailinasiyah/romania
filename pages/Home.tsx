@@ -101,16 +101,12 @@ const Home: React.FC = () => {
   return (
     <div className="w-full overflow-x-hidden">
       {/* ================= HERO ================= */}
-      <section className="relative min-h-[100svh] flex items-center">
+      <section className="relative py-32 text-white overflow-hidden">
         {/* Background Image */}
-        <img
-          src={IMAGES.hero}
-          alt="Romania Hero"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-
-
-
+        <div
+            className="absolute inset-0 bg-cover bg-[center_10%]"
+            style={{ backgroundImage: `url(${IMAGES.hero})` }}
+          />  
         {/* Content */}
         <div className="relative z-10 w-full px-4 sm:px-6 lg:px-20">
           <div className="max-w-2xl text-left text-white">

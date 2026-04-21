@@ -11,14 +11,10 @@ const JobManager: React.FC = () => {
        <section className="relative py-32 text-white overflow-hidden">
         {/* Background Image */}
         <div
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover bg-[center_10%]"
           style={{ backgroundImage: `url(${IMAGES.bgfnb})` }}
         />
-      
-        {/* Dark transparent overlay */}
-        <div className="absolute inset-0 bg-black/40" />
-    
-      
+
         {/* Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1

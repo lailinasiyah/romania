@@ -1,12 +1,12 @@
 const BASE = process.env.BASE_URL || '/';
 export const IMAGES = {
-  hero: `${BASE}/assets/chef.webp`,
-  bgMenu: `${BASE}/assets/bg.jpg`, 
-  bgChef: `${BASE}/assets/chef.webp`,
-  bgfnb : `${BASE}/assets/fnb.webp`,
-  bgrestaurant : `${BASE}/assets/restaurant.webp`,
+  hero: `${BASE}/assets/home.png`,
+  bgMenu: `${BASE}/assets/contact.png`, 
+  bgChef: `${BASE}/assets/chef.png`,
+  bgfnb : `${BASE}/assets/restaurant-manager.png`,
+  bgrestaurant : `${BASE}/assets/fnb.png`,
   bgbiaya : `${BASE}/assets/skemabiaya.webp`, 
-  bgcontact : `${BASE}/assets/contact.webp`,
+  bgcontact : `${BASE}/assets/contact.png`,
   iconcook : `${BASE}/assets/waiter.png`,
   iconwaiter : `${BASE}/assets/cooking.png`,
   iconteam: `${BASE}/assets/team-lead.png`,
