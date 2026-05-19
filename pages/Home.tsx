@@ -40,24 +40,24 @@ const Home: React.FC = () => {
   }, [itemsPerPage, totalPages, activeIndex]);
   const featuredJobs = [
     {
-      title: 'Cook',
+      title: 'Chef',
       description:
-        'Tidak hanya berkarir di dalam negeri, seorang Cook juga memiliki peluang besar untuk bekerja di luar negeri. Saat ini, kebutuhan tenaga kerja di bidang kuliner terus meningkat di berbagai negara, termasuk Rumania, untuk memenuhi industri perhotelan dan restoran yang berkembang pesat.',
+        'Tidak hanya berkarir di dalam negeri, seorang Chef juga memiliki peluang besar untuk bekerja di luar negeri. Saat ini, kebutuhan tenaga kerja di bidang kuliner terus meningkat di berbagai negara, termasuk Rumania, untuk memenuhi industri perhotelan dan restoran yang berkembang pesat.',
       link: '/chef',
       icon: IMAGES.iconcook,
     },
     {
-      title: 'F&B Services',
+      title: 'Waiter',
       description:
-        'Profesi di bidang F&B Service kini semakin diminati di pasar kerja internasional. Rumania menjadi salah satu negara yang membutuhkan tenaga profesional di bidang layanan makanan dan minuman untuk menunjang pertumbuhan industri hospitality mereka.',
-      link: '/fb-service',
+        'Seorang Waiter di Rumania bertugas melayani pelanggan di restoran, hotel, atau cafe dengan profesional dan ramah. Tanggung jawab waiter meliputi menyajikan makanan dan minuman, membantu kebutuhan pelanggan, menjaga kebersihan area pelayanan, serta memastikan kenyamanan dan kepuasan pelanggan.',
+      link: '/waiter',
       icon: IMAGES.iconwaiter,
     },
     {
-      title: 'Restaurant Manager',
+      title: 'Bartender',
       description:
-        'Seorang Restaurant Manager di Rumania bertanggung jawab mengelola operasional restoran sesuai standar layanan dan regulasi lokal. Ia mengawasi staf, memastikan kualitas makanan dan pelayanan, serta menjaga kepuasan pelanggan domestik maupun wisatawan.',
-      link: '/restaurant-management',
+        'Seorang Bartender di Rumania bertanggung jawab menyiapkan dan menyajikan minuman sesuai standar layanan restoran, bar, atau hotel. Bartender juga menjaga kebersihan area bar, melayani pelanggan dengan ramah, serta memastikan kualitas pelayanan bagi pelanggan domestik maupun wisatawan.',
+      link: '/bartender',
       icon: IMAGES.iconteam,
     },
   ];
@@ -148,7 +148,7 @@ const Home: React.FC = () => {
                 "
               >
                 Job : Bartender, Chef (Experienced Cook, Junior Cook)
-                Gaji : Dengan gaji rata - rata 15 Juta lebih
+                Gaji : Dengan gaji 4.000 RON (± 16 Juta) 
               </span>
             </p>
 
@@ -427,14 +427,14 @@ const Home: React.FC = () => {
                 <div className="grid sm:grid-cols-2 gap-4 text-center">
 
   <a 
-    href="https://wa.me/6285185995935"
+    href="https://wa.me/6281259602251"
     target="_blank"
     className="bg-gradient-to-r from-[#C8102E] to-red-700
                text-white px-6 py-6 rounded-xl
                shadow-2xl hover:scale-110
                transition-all duration-300 group"
   >
-    <p className="font-bold text-lg">🔥 Chat Nova Sekarang</p>
+    <p className="font-bold text-lg">🔥 Chat WA Admin 1</p>
     <p className="text-sm opacity-90">Respon Cepat & Konsultasi Gratis</p>
     <p className="mt-2 font-semibold animate-pulse">
       Klik di sini
@@ -449,7 +449,7 @@ const Home: React.FC = () => {
                shadow-2xl hover:scale-110
                transition-all duration-300 group"
   >
-    <p className="font-bold text-lg">🔥 Chat Victor Sekarang</p>
+    <p className="font-bold text-lg">🔥 Chat WA Admin 2</p>
     <p className="text-sm opacity-90">Respon Cepat & Konsultasi Gratis</p>
     <p className="mt-2 font-semibold animate-pulse">
       Klik di sini

@@ -13,38 +13,38 @@ const Pricing: React.FC = () => {
   const packages = [
     {
       title: 'Biaya Proses',
-      roles: 'Bartender / Waiter / Cook / Floor Supervisor',
-      price: 'Rp 20 Juta',
-      image: IMAGES.bgservice,
-      popular: false,
-      paymentSteps: [
-        '1 Juta – Pendaftaran',
-        '9 Juta – Menerima kontrak kerja',
-        '10 Juta – Menerima visa kerja Romania'
-      ]
-    },
-    {
-      title: 'Biaya Proses',
-      roles: 'Floor Manager',
-      price: 'Rp 25 Juta',
-      image: IMAGES.bgmanajer,
-      popular: false,
-      paymentSteps: [
-        '1 Juta – Pendaftaran',
-        '11.5 Juta – Menerima kontrak kerja',
-        '12 .5 Juta – Menerima visa kerja Romania'
-      ]
-    },
-    {
-      title: 'Biaya Proses',
-      roles: 'Head Chef',
+      roles: 'Bartender / Waiter / Cook',
       price: 'Rp 30 Juta',
-      image: IMAGES.bgheadchef,
+      image: IMAGES.bgservice,
       popular: false,
       paymentSteps: [
         '1 Juta – Pendaftaran',
         '14 Juta – Menerima kontrak kerja',
         '15 Juta – Menerima visa kerja Romania'
+      ]
+    },
+    // {
+    //   title: 'Biaya Proses',
+    //   roles: 'Floor Manager',
+    //   price: 'Rp 25 Juta',
+    //   image: IMAGES.bgmanajer,
+    //   popular: false,
+    //   paymentSteps: [
+    //     '1 Juta – Pendaftaran',
+    //     '11.5 Juta – Menerima kontrak kerja',
+    //     '12 .5 Juta – Menerima visa kerja Romania'
+    //   ]
+    // },
+    {
+      title: 'Biaya Proses',
+      roles: 'Head Chef',
+      price: 'Rp 35 Juta',
+      image: IMAGES.bgheadchef,
+      popular: false,
+      paymentSteps: [
+        '1 Juta – Pendaftaran',
+        '14 Juta – Menerima kontrak kerja',
+        '20 Juta – Menerima visa kerja Romania'
       ]
     }
   ];
@@ -74,12 +74,12 @@ const Pricing: React.FC = () => {
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10 md:mb-24">
+          <div className="flex flex-wrap justify-center gap-10 mb-10 md:mb-24">
 
             {packages.map((pkg, i) => (
               <div
                 key={i}
-                className={`relative pt-28 mb-20 md:mb-0 rounded-3xl border transition-all ${
+                className={`relative w-full md:w-[380px] pt-28 mb-20 md:mb-0 rounded-3xl border transition-all ${
                   pkg.popular
                     ? 'border-romania-blue shadow-2xl scale-105'
                     : 'border-slate-200 shadow-xl'
@@ -136,7 +136,7 @@ const Pricing: React.FC = () => {
                     </div>
 
                     <a
-                      href="https://wa.me/6285185995935?text=Halo%20Ibu%20Nova%2C%20saya%20ingin%20bertanya%20mengenai%20skema%20biaya%20proses%20ke%20Romania.%20Boleh%20minta%20info%20lebih%20lanjut%3F"
+                      href="https://wa.me/6281259602251?text=Halo%20Ibu%20Nova%2C%20saya%20ingin%20bertanya%20mengenai%20skema%20biaya%20proses%20ke%20Romania.%20Boleh%20minta%20info%20lebih%20lanjut%3F"
                       target="_blank"
                       rel="noreferrer"
                       className="
@@ -148,7 +148,7 @@ const Pricing: React.FC = () => {
                         transition-all duration-300
                       "
                     >
-                      Hubungi Untuk Detail
+                      Klik Hubungi Admin Untuk Detail
                     </a>
                   </div>
                 </div>
@@ -164,7 +164,7 @@ const Pricing: React.FC = () => {
               </h3>
               <ul className="space-y-4 text-slate-700">
                 <li className="flex items-center"><Info size={18} className="mr-3 text-romania-blue" /> Pengurusan Visa</li>
-                <li className="flex items-center"><ShieldCheck size={18} className="mr-3 text-romania-blue" /> Asuransi</li>
+                <li className="flex items-center"><ShieldCheck size={18} className="mr-3 text-romania-blue" /> Asuransi Ketenagakerjaan</li>
                 <li className="flex items-center"><Ticket size={18} className="mr-3 text-romania-blue" /> eKTKLN</li>
                 <li className="flex items-center"><CreditCard size={18} className="mr-3 text-romania-blue" /> Handling di Romania</li>
                 <li className="flex items-center"><Plane size={18} className="mr-3 text-romania-blue" /> Tiket pesawat Jakarta – Romania</li>
@@ -177,9 +177,9 @@ const Pricing: React.FC = () => {
               </h3>
               <ul className="space-y-4 text-slate-600">
                 <li>✓ Paspor</li>
+                <li>✓ Apostille</li>
                 <li>✓ MCU (Medical Check-Up)</li>
                 <li>✓ SKCK dari POLRI</li>
-                <li>✓ Transport Kedutaan</li>
                 <li>✓ Transport pengurusan visa awal Kedutaan Romania di Jakarta</li>
               </ul>
             </div>

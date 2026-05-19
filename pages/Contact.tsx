@@ -80,10 +80,10 @@ const Contact: React.FC = () => {
 
                   <div className="flex flex-col">
                     <p className="text-xs font-bold text-slate-400 uppercase">
-                      Nova
+                      Admin 1
                     </p>
                     <p className="font-bold text-slate-800">
-                      +62 851-8599-5935
+                      +62 812-5960-2251
                     </p>
 
                     <div className="mt-2 flex items-center gap-2 text-red-600 font-semibold text-sm">
@@ -109,7 +109,7 @@ const Contact: React.FC = () => {
 
                   <div className="flex flex-col">
                     <p className="text-xs font-bold text-slate-400 uppercase">
-                      Victor
+                      Admin 2
                     </p>
                     <p className="font-bold text-slate-800">
                       +62 822-3018-4888
@@ -129,7 +129,7 @@ const Contact: React.FC = () => {
             </div>
 
             {/* Jam Operasional */}
-            <div className="flex items-center p-6 bg-slate-900 text-white rounded-3xl shadow-xl">
+            {/* <div className="flex items-center p-6 bg-slate-900 text-white rounded-3xl shadow-xl">
               <div className="p-4 bg-yellow-400 text-blue-900 rounded-2xl mr-6">
                 <Clock size={28} />
               </div>
@@ -139,7 +139,7 @@ const Contact: React.FC = () => {
                   Senin - Jumat: 08:00 - 17:00 WIB
                 </p>
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>

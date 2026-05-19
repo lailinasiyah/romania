@@ -33,7 +33,7 @@ const JobFB: React.FC = () => {
         mb-6
       "
     >
-      F&B Services
+      Waiter
     </h1>
     <br></br>
               <p className="inline-block text-lg sm:text-xl font-bold text-[#FCD116] max-w-3xl leading-relaxed px-4 py-3 rounded-xl bg-slate-900/50 backdrop-blur-md shadow-[0_10px_30px_rgba(0,0,0,0.55)]">
@@ -51,32 +51,26 @@ const JobFB: React.FC = () => {
               <div className="prose prose-lg max-w-none text-slate-600 text-justify">
                 <h2 className="text-3xl font-bold text-slate-800 mb-6">Deskripsi Pekerjaan</h2>
                 <p>
-                 <strong> F&B (Food and Beverage) Service </strong> adalah tugas yang berkaitan dengan pelayanan makanan dan minuman kepada tamu di restoran, hotel, atau kafe. Seorang staf F&B Service bertanggung jawab untuk menyambut tamu, mencatat pesanan, menyajikan makanan dan minuman dengan sopan, serta memastikan kenyamanan dan kepuasan tamu selama makan. Selain itu, mereka juga menjaga kebersihan area kerja dan bekerja sama dengan tim dapur untuk memberikan pelayanan terbaik.
+                 <strong> Waiter </strong> profesi yang bertugas melayani tamu di restoran, hotel, atau cafe dengan ramah dan profesional. Seorang waiter bertanggung jawab menyambut tamu, mencatat pesanan, menyajikan makanan dan minuman, serta memastikan kenyamanan dan kepuasan pelanggan selama berada di area pelayanan. Selain itu, waiter juga menjaga kebersihan area kerja dan bekerja sama dengan tim dapur untuk memberikan pelayanan terbaik.
                 </p>
                 <br></br>
                 <p>
-                  Rumania sebagai bagian dari Eropa Timur, sedang mengalami perkembangan pesat di sektor pariwisata dan kuliner. Hal ini menciptakan banyak peluang kerja di bidang F&B Service, khususnya restoran, hotel, dan resort kelas internasional yang memerlukan staf pelayanan profesional dari luar negeri, termasuk Indonesia.
+                  Rumania sebagai bagian dari Eropa Timur sedang mengalami perkembangan pesat di sektor pariwisata dan hospitality. Hal ini menciptakan banyak peluang kerja bagi tenaga profesional di bidang waiter, khususnya di restoran, hotel, dan resort kelas internasional yang membutuhkan staf pelayanan dari luar negeri, termasuk Indonesia.
                 </p>
                 <br></br>
                 <p>
-                  Program ini menawarkan kesempatan kerja resmi dalam bidang F&B Service di Rumania, dengan fasilitas lengkap, lingkungan kerja multinasional, serta pengalaman internasional yang sangat berharga. Posisi ini juga menjadi gerbang awal untuk pengembangan karier jangka panjang di industri hospitality global.
+                  Program ini menawarkan kesempatan kerja resmi sebagai waiter di Rumania dengan fasilitas lengkap, lingkungan kerja multinasional, serta pengalaman kerja internasional yang sangat berharga. Posisi ini juga menjadi peluang untuk mengembangkan karier jangka panjang di industri hospitality global.
                 </p>
 
                 <h3 className="text-2xl font-bold text-slate-800 mt-10 mb-4">Prospek Kerja</h3>
                 <ul className="space-y-4">
-                  <li  className="flex items-start"> <span className="mr-3 mt-2 text-romania-blue text-xl">•</span><span> <strong>Naik jabatan</strong> Head Waiter, Floor Captain, atau Supervisor seiring dengan peningkatan pengalaman dan kinerja di dapur.</span></li>
+                  <li  className="flex items-start"> <span className="mr-3 mt-2 text-romania-blue text-xl">•</span><span> <strong>Naik jabatan</strong> Head Waiter seiring dengan peningkatan pengalaman dan kinerja di dapur.</span></li>
                   <li  className="flex items-start"> <span className="mr-3 mt-2 text-romania-blue text-xl">•</span><span><strong>Melamar pekerjaan di negara Eropa lainnya</strong> dengan peluang lebih besar berkat pengalaman kerja internasional dan standar Eropa.</span></li>
                   <li  className="flex items-start"> <span className="mr-3 mt-2 text-romania-blue text-xl">•</span><span><strong>Bekerja di restoran, hotel, atau kapal pesiar (cruise ship) </strong> yang menawarkan gaji lebih tinggi, fasilitas lengkap, serta lingkungan kerja multinasional.</span></li>
                   <li  className="flex items-start"> <span className="mr-3 mt-2 text-romania-blue text-xl">•</span><span><strong>Membuka usaha kuliner sendiri,</strong> seperti restoran atau kafe, dengan bekal pengalaman manajemen dapur dan standar internasional.</span></li>
                   <li  className="flex items-start"> <span className="mr-3 mt-2 text-romania-blue text-xl">•</span><span><strong>Menjadi staf pelatih atau  instruktur hospitality</strong> di lembaga pelatihan kerja</span></li>
                 </ul>
-         
-                <h3 className="text-2xl font-bold text-slate-800 mt-10 mb-4">Posisi yang Dibutuhkan:</h3>
-                <ul className="grid grid-cols-1 md:grid-cols-1 gap-4 list-none p-0">
-                  <li className="flex items-center"><CheckCircle className="text-romania-blue mr-2 shrink-0" size={20} /> Waiter </li>
-                  <li className="flex items-center"><CheckCircle className="text-romania-blue mr-2 shrink-0" size={20} /> Bartender </li>
-              
-                </ul>
+
 
                 <h3 className="text-2xl font-bold text-slate-800 mt-10 mb-4">Syarat Penerimaan:</h3>
                 <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200">
@@ -84,7 +78,7 @@ const JobFB: React.FC = () => {
                     <li>✓ Pria/Wanita Usia 19 - 40 tahun</li>
                     <li>✓ Min. Lulusan SMA/SMK</li>
                     <li>✓ Kemampuan Bahasa Inggris Dasar</li>
-                    <li>✓ Sudah mengikuti pelatihan F&B Service (untuk Waiter/ess) atau Bartending (untuk Bartender) di LKP/LPK perhotelan</li>
+                    <li>✓ Sudah mengikuti pelatihan Waiter/ess di LKP/LPK perhotelan</li>
                   </ul>
                 </div>
               </div>
@@ -116,6 +110,52 @@ const JobFB: React.FC = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" className="py-24 diagonal-bg relative">
+        <div className="container mx-auto px-4 md:px-6 relative z-10">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center text-black mb-12">
+              <h2 className="font-heading text-3xl md:text-5xl font-bold mb-4">Siap Mewujudkan Mimpimu?</h2>
+              <p className="text-black/90 text-lg">Jangan ragu bertanya. Konsultasi awal 100% gratis dan tanpa komitmen.</p>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <div className="grid sm:grid-cols-2 gap-4 text-center">
+
+  <a 
+    href="https://wa.me/6281259602251"
+    target="_blank"
+    className="bg-gradient-to-r from-[#C8102E] to-red-700
+               text-white px-6 py-6 rounded-xl
+               shadow-2xl hover:scale-110
+               transition-all duration-300 group"
+  >
+    <p className="font-bold text-lg">🔥 Chat WA Admin 1</p>
+    <p className="text-sm opacity-90">Respon Cepat & Konsultasi Gratis</p>
+    <p className="mt-2 font-semibold animate-pulse">
+      Klik di sini
+    </p>
+  </a>
+
+  <a 
+    href="https://wa.me/6282230184888"
+    target="_blank"
+    className="bg-gradient-to-r from-[#C8102E] to-red-700
+               text-white px-6 py-6 rounded-xl
+               shadow-2xl hover:scale-110
+               transition-all duration-300 group"
+  >
+    <p className="font-bold text-lg">🔥 Chat WA Admin 2</p>
+    <p className="text-sm opacity-90">Respon Cepat & Konsultasi Gratis</p>
+    <p className="mt-2 font-semibold animate-pulse">
+      Klik di sini
+    </p>
+  </a>
+
+</div>
+              </div>
           </div>
         </div>
       </section>

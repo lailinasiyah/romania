@@ -77,6 +77,7 @@ const JobChef: React.FC = () => {
          
                 <h3 className="text-2xl font-bold text-slate-800 mt-10 mb-4">Posisi yang Dibutuhkan:</h3>
                 <ul className="grid grid-cols-1 md:grid-cols-1 gap-4 list-none p-0">
+                  <li className="flex items-center"><CheckCircle className="text-romania-blue mr-2 shrink-0" size={20} /> Head Chef</li>
                   <li className="flex items-center"><CheckCircle className="text-romania-blue mr-2 shrink-0" size={20} /> Experienced Cook</li>
                   <li className="flex items-center"><CheckCircle className="text-romania-blue mr-2 shrink-0" size={20} /> Junior Cook</li>
                   
@@ -85,11 +86,11 @@ const JobChef: React.FC = () => {
                 <h3 className="text-2xl font-bold text-slate-800 mt-10 mb-4">Syarat Penerimaan:</h3>
                 <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200">
                   <ul className="space-y-3">
-                    <li>✓ Pria/Wanita Usia 22 - 40 tahun</li>
-                    <li>✓ Min. D3 Seni Kuliner/Tata Boga</li>
-                    <li>✓ Kemampuan Bahasa Inggris Dasar</li>
-                    <li>✓ Khusus Experienced Cook, diutamakan memiliki pengalaman kerja sebagai Cook min. 2 tahun</li>
-                    <li>✓ Khusus Head Chef, diutamakan memiliki pengalaman kerja sebagai Head Chef min. 5 Tahun</li>
+                    <li>✓ Pria/Wanita Usia 20-40 tahun</li>
+                    <li>✓ D3/D4/S1 Seni Kuliner/Tata Boga</li>
+                    <li>✓ Kemampuan Bahasa English for Culinary Industry</li>
+                    <li>✓ Khusus Experienced Cook, diutamakan memiliki pengalaman kerja sebagai Cook min. 3 tahun</li>
+                    <li>✓ Khusus Head Chef, diutamakan memiliki pengalaman kerja sebagai Head Chef min. 3 Tahun</li>
                   </ul>
                 </div>
               </div>
@@ -132,6 +133,52 @@ const JobChef: React.FC = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" className="py-24 diagonal-bg relative">
+        <div className="container mx-auto px-4 md:px-6 relative z-10">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center text-black mb-12">
+              <h2 className="font-heading text-3xl md:text-5xl font-bold mb-4">Siap Mewujudkan Mimpimu?</h2>
+              <p className="text-black/90 text-lg">Jangan ragu bertanya. Konsultasi awal 100% gratis dan tanpa komitmen.</p>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <div className="grid sm:grid-cols-2 gap-4 text-center">
+
+  <a 
+    href="https://wa.me/6281259602251"
+    target="_blank"
+    className="bg-gradient-to-r from-[#C8102E] to-red-700
+               text-white px-6 py-6 rounded-xl
+               shadow-2xl hover:scale-110
+               transition-all duration-300 group"
+  >
+    <p className="font-bold text-lg">🔥 Chat WA Admin 1</p>
+    <p className="text-sm opacity-90">Respon Cepat & Konsultasi Gratis</p>
+    <p className="mt-2 font-semibold animate-pulse">
+      Klik di sini
+    </p>
+  </a>
+
+  <a 
+    href="https://wa.me/6282230184888"
+    target="_blank"
+    className="bg-gradient-to-r from-[#C8102E] to-red-700
+               text-white px-6 py-6 rounded-xl
+               shadow-2xl hover:scale-110
+               transition-all duration-300 group"
+  >
+    <p className="font-bold text-lg">🔥 Chat WA Admin 2</p>
+    <p className="text-sm opacity-90">Respon Cepat & Konsultasi Gratis</p>
+    <p className="mt-2 font-semibold animate-pulse">
+      Klik di sini
+    </p>
+  </a>
+
+</div>
+              </div>
           </div>
         </div>
       </section>

@@ -31,8 +31,8 @@ const Navbar: React.FC = () => {
       path: '#',
       submenu: [
         { name: 'Chef', path: '/chef' },
-        { name: 'F&B Services', path: '/fb-service' },
-        { name: 'Restaurant Manager', path: '/restaurant-management' }
+        { name: 'Waiter', path: '/waiter' },
+        { name: 'Bartender', path: '/bartender' }
       ]
     },
     { name: 'Skema Biaya', path: '/skema-biaya' },
@@ -136,12 +136,20 @@ const Navbar: React.FC = () => {
         <div className="p-4 flex flex-col h-full">
           <div className="flex justify-between items-center mb-8">
             <Link to="/" className="flex items-center space-x-2">
-              <div className="h-8 w-8 bg-romania-blue rounded flex items-center justify-center">
-                <span className="text-white font-bold">M</span>
-              </div>
-              <span className="font-bold text-romania-blue">
-                Mitra Sinergi Sukses
+              <div className="h-[56px] w-[56px] rounded flex items-center justify-center">
+            <img
+              src={IMAGES.iconweb}
+              alt="Logo PT. Mitra Sinergi Sukses"
+              className="h-[48px] w-[48px] object-contain"
+            />
+          </div>
+<div className="flex flex-col">
+              <span className="font-bold text-lg leading-tight text-romania-blue">
+                PT. Mitra Sinergi Sukses</span>
+              <span className="text-xs text-slate-500">
+                Professional Recruitment Agency
               </span>
+            </div>
             </Link>
             <button onClick={() => setIsOpen(false)} className="text-black">
               <X size={28} />
