@@ -69,7 +69,7 @@ const Contact: React.FC = () => {
 
                 {/* Nova */}
                 <a
-                  href="https://wa.me/6285185995935?text=Halo%20Bapak%2FIbu%20Nova%2C%20saya%20tertarik%20dengan%20kerja%20di%20Romania.%20Boleh%20minta%20info%20lebih%20lanjut%3F"
+                  href="https://wa.me/6281259602251?text=Halo%20Bapak%2FIbu%20Nova%2C%20saya%20tertarik%20dengan%20kerja%20di%20Romania.%20Boleh%20minta%20info%20lebih%20lanjut%3F"
                   target="_blank"
                   rel="noreferrer"
                   className="group flex items-center p-6 bg-slate-50 rounded-2xl hover:bg-slate-100 transition"
