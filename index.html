@@ -17,6 +17,17 @@
         .border-romania-blue { border-color: #002B7F; }
         .bg-romania-yellow { background-color: #FCD116; }
         .bg-romania-red { background-color: #CE1126; }
+        [data-admin-editable="true"] {
+            cursor: text;
+            outline: 2px dashed rgba(0, 43, 127, 0.35);
+            outline-offset: 4px;
+            transition: outline-color 160ms ease, background-color 160ms ease;
+        }
+        [data-admin-editable="true"]:hover,
+        [data-admin-editable="true"]:focus {
+            background-color: rgba(252, 209, 22, 0.18);
+            outline-color: rgba(0, 43, 127, 0.85);
+        }
     </style>
 <script type="importmap">
 {

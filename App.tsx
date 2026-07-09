@@ -15,6 +15,7 @@ import Contact from './pages/Contact';
 // Components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import AdminContentEditor from './components/AdminContentEditor';
 
 const App: React.FC = () => {
   return (
@@ -33,6 +34,7 @@ const App: React.FC = () => {
           </Routes>
         </main>
         <Footer />
+        <AdminContentEditor />
       </div>
     </Router>
   );
